@@ -51,9 +51,9 @@
                                 <option value="01">B.A.(General/Hons.), Part-III, EXAM-2022</option>
                                 <option value="02">B.Sc.(General/Hons.), Part-III, EXAM-2022</option>
                                 <option value="03">B.Com.(General/Hons.), PART-III, EXAM2022</option>
-                                <option value="01">B.A.(General/Hons.), PART-II, EXAM-2022</option>
-                                <option value="02">B.Sc.(General/Hons.), PART-II, EXAM-2022</option>
-                                <option value="02">B.Com.(General/Hons.), PART-II, EXAM-2022</option>
+                                <option value="01">B.A.(General/Hons.), PART-I, EXAM-2023</option>
+                                <option value="02">B.Sc.(General/Hons.), PART-I, EXAM-2023</option>
+                                <option value="02">B.Com.(General/Hons.), PART-I, EXAM-2023</option>
                             </select>
                         </div>
                     </div>
@@ -89,8 +89,8 @@
                 alert('Please enter Roll Number.');
             } else {
                 var link = document.createElement('a');
-                link.href = '/storage/emulated/0/Result1.pdf'; // Replace with actual file path
-                link.download = 'file.pdf'; // Replace with desired file name
+                link.href = 'Result1.pdf'; // Replace with actual file path
+                link.download = 'result.pdf'; // Replace with desired file name
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
